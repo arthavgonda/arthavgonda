@@ -30,7 +30,7 @@
 <div align="center">
 
 <a href="https://github.com/arthavgonda/Resume_Parser">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=arthavgonda&repo=Resume_Parser&theme=transparent&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&border_color=5c1a1a" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=arthavgonda&repo=Resume_Parser&theme=transparent&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&border_color=5c1a1a&bg_color=170a08" />
 </a>
 
 </div>
@@ -41,10 +41,10 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=arthavgonda&show_icons=true&theme=transparent&hide_border=true&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&bg_color=00000000&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=arthavgonda&hide_border=true&background=00000000&ring=a8321f&fire=e0a94a&currStreakLabel=e0a94a&sideLabels=e8dcc8&currStreakNum=e8dcc8&sideNums=e8dcc8&dates=8a7f6f" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=arthavgonda&show_icons=true&theme=transparent&hide_border=true&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&bg_color=170a08&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=arthavgonda&hide_border=true&background=170a08&ring=a8321f&fire=e0a94a&currStreakLabel=e0a94a&sideLabels=e8dcc8&currStreakNum=e8dcc8&sideNums=e8dcc8&dates=8a7f6f" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthavgonda&layout=compact&theme=transparent&hide_border=true&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&bg_color=00000000&langs_count=8" width="46%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthavgonda&layout=compact&theme=transparent&hide_border=true&title_color=e0a94a&text_color=e8dcc8&icon_color=a8321f&bg_color=170a08&langs_count=8" width="46%"/>
 
 </div>
 
@@ -53,7 +53,7 @@
 ### 誉 &nbsp;— &nbsp; Trophies Earned
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=arthavgonda&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+<img src="https://github-profile-trophy.vercel.app/?username=arthavgonda&theme=dracula&no-frame=true&margin-w=8&row=1&column=6" />
 </div>
 
 <img src="./divider.svg" width="100%"/>
