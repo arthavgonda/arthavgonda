@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner-top.svg" width="100%"/>
+<img src="./banner-top.svg" width="100%"/>
 
 <br/>
 
@@ -13,7 +13,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 腕 &nbsp;— &nbsp; The Arsenal
 
@@ -23,7 +23,7 @@
 
 <!-- swap these for your real stack, e.g. i=python,react,nodejs,mongodb,docker,aws -->
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 道 &nbsp;— &nbsp; The Path Walked
 
@@ -35,7 +35,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 記録 &nbsp;— &nbsp; Chronicle of Deeds
 
@@ -48,7 +48,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 誉 &nbsp;— &nbsp; Trophies Earned
 
@@ -56,7 +56,7 @@
 <img src="https://github-profile-trophy.vercel.app/?username=arthavgonda&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 影 &nbsp;— &nbsp; Trail of Commits
 
@@ -64,7 +64,7 @@
 <img src="https://raw.githubusercontent.com/arthavgonda/arthavgonda/output/github-contribution-grid-snake-dark.svg" alt="commit trail"/>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 <table align="center">
 <tr><td>
@@ -83,7 +83,7 @@
 </td></tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="./divider.svg" width="100%"/>
 
 ### 絆 &nbsp;— &nbsp; Bonds Forged
 
@@ -96,4 +96,4 @@
 
 </div>
 
-<img src="./assets/banner-footer.svg" width="100%"/>
+<img src="./banner-footer.svg" width="100%"/>
