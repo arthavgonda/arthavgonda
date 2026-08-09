@@ -1,0 +1,21 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e08a3c"/>
+      <stop offset="55%" stop-color="#5c1a1a"/>
+      <stop offset="100%" stop-color="#150808"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6d78b"/>
+      <stop offset="50%" stop-color="#e0a94a"/>
+      <stop offset="100%" stop-color="#f6d78b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="140" fill="url(#sky2)"/>
+  <path d="M0,65 Q200,35 420,60 T900,55 L900,140 L0,140 Z" fill="#170707"/>
+  <g stroke="#0d0404" stroke-width="7" fill="none" opacity="0.9">
+    <path d="M710,140 L710,58 M750,140 L750,58" stroke-linecap="round"/>
+    <path d="M698,58 L762,58 M704,71 L756,71" stroke-linecap="round" stroke-width="8"/>
+  </g>
+  <text x="440" y="90" font-family="Georgia,serif" font-size="18" letter-spacing="5" fill="url(#gold2)" text-anchor="middle" opacity="0.9">THE JOURNEY CONTINUES</text>
+</svg>

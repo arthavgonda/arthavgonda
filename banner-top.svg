@@ -1,0 +1,100 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#150808"/>
+      <stop offset="45%" stop-color="#5c1a1a"/>
+      <stop offset="75%" stop-color="#a8461f"/>
+      <stop offset="100%" stop-color="#e08a3c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe9b0" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#f2b544" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f2b544" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6d78b"/>
+      <stop offset="50%" stop-color="#e0a94a"/>
+      <stop offset="100%" stop-color="#f6d78b"/>
+    </linearGradient>
+    <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1414"/>
+      <stop offset="100%" stop-color="#2a0d0d"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2762f"/>
+      <stop offset="100%" stop-color="#a8321f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="280" fill="url(#sky)"/>
+
+  <circle cx="700" cy="120" r="140" fill="url(#sun)"/>
+  <circle cx="700" cy="120" r="52" fill="#ffe6a8" opacity="0.9"/>
+
+  <path d="M0,210 Q150,160 320,195 T650,180 T900,205 L900,280 L0,280 Z" fill="url(#mtnFar)" opacity="0.85"/>
+  <path d="M0,240 Q200,195 420,225 T900,220 L900,280 L0,280 Z" fill="#170707"/>
+
+  <g id="crest" opacity="0.16" stroke="#f6d78b" fill="none" stroke-width="2" transform="translate(150,110)">
+    <circle r="70"/>
+    <circle r="50"/>
+    <g id="petals">
+      <ellipse cx="0" cy="-58" rx="10" ry="24"/>
+      <ellipse cx="0" cy="58" rx="10" ry="24"/>
+      <ellipse cx="58" cy="0" rx="24" ry="10"/>
+      <ellipse cx="-58" cy="0" rx="24" ry="10"/>
+      <ellipse cx="41" cy="-41" rx="10" ry="24" transform="rotate(45 41 -41)"/>
+      <ellipse cx="-41" cy="-41" rx="10" ry="24" transform="rotate(-45 -41 -41)"/>
+      <ellipse cx="41" cy="41" rx="10" ry="24" transform="rotate(-45 41 41)"/>
+      <ellipse cx="-41" cy="41" rx="10" ry="24" transform="rotate(45 -41 41)"/>
+    </g>
+    <circle r="14" fill="#f6d78b" fill-opacity="0.5"/>
+  </g>
+
+  <g stroke="#0d0404" stroke-width="10" fill="none">
+    <path d="M120,270 L120,110 M180,270 L180,110" stroke-linecap="round"/>
+    <path d="M95,110 L205,110 M105,132 L195,132" stroke-linecap="round" stroke-width="12"/>
+  </g>
+
+  <g fill="url(#leaf)">
+    <g opacity="0.9">
+      <path d="M0,-6 C4,-6 7,-2 6,3 C5,7 1,9 -2,7 C-5,5 -6,0 -3,-4 C-2,-5 -1,-6 0,-6Z"/>
+      <animateMotion path="M760,10 C770,60 720,110 760,160 C790,200 740,240 750,270" dur="9s" repeatCount="indefinite" rotate="auto"/>
+    </g>
+  </g>
+  <g fill="url(#leaf)">
+    <g opacity="0.85">
+      <path d="M0,-6 C4,-6 7,-2 6,3 C5,7 1,9 -2,7 C-5,5 -6,0 -3,-4 C-2,-5 -1,-6 0,-6Z"/>
+      <animateMotion path="M820,-10 C800,50 850,100 810,150 C790,190 830,230 815,270" dur="11s" begin="1.5s" repeatCount="indefinite" rotate="auto"/>
+    </g>
+  </g>
+  <g fill="url(#leaf)">
+    <g opacity="0.8">
+      <path d="M0,-5 C3,-5 6,-2 5,2 C4,6 1,7 -2,6 C-4,4 -5,0 -2,-3 C-1,-4 0,-5 0,-5Z"/>
+      <animateMotion path="M650,-10 C670,40 630,90 660,140 C685,180 640,220 655,260" dur="8s" begin="0.7s" repeatCount="indefinite" rotate="auto"/>
+    </g>
+  </g>
+  <g fill="url(#leaf)">
+    <g opacity="0.7">
+      <path d="M0,-5 C3,-5 6,-2 5,2 C4,6 1,7 -2,6 C-4,4 -5,0 -2,-3 C-1,-4 0,-5 0,-5Z"/>
+      <animateMotion path="M580,-10 C560,45 600,95 570,145 C550,185 590,225 575,265" dur="10s" begin="2.4s" repeatCount="indefinite" rotate="auto"/>
+    </g>
+  </g>
+  <g fill="url(#leaf)">
+    <g opacity="0.75">
+      <path d="M0,-5 C3,-5 6,-2 5,2 C4,6 1,7 -2,6 C-4,4 -5,0 -2,-3 C-1,-4 0,-5 0,-5Z"/>
+      <animateMotion path="M870,-10 C855,40 890,85 860,130 C840,170 875,210 858,250" dur="7.5s" begin="3.1s" repeatCount="indefinite" rotate="auto"/>
+    </g>
+  </g>
+
+  <text x="60" y="150" font-family="Georgia,'Noto Serif JP',serif" font-size="54" font-weight="700" letter-spacing="6" fill="url(#gold)" filter="url(#glow)">ANOOP SINGH NEGI</text>
+  <text x="63" y="185" font-family="Georgia,serif" font-size="19" letter-spacing="4" fill="#f2e6cf" opacity="0.85">GUIDED BY HONOR &#183; DRIVEN BY CODE</text>
+
+  <rect x="60" y="200" width="230" height="2" fill="url(#gold)" opacity="0.7"/>
+</svg>
